@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Prototype 同樂會</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Set Apple icons for when prototype is saved to home screen -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="touch-icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="touch-icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="touch-icons/apple-touch-icon-57x57.png">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link rel="stylesheet" href="ratchet.css">
+
+    <!-- Intro paragraph styles. Delete once you start using this page -->
+    <style type="text/css">
+      .slider > ul > li{
+        height: 40px;
+      }
+    </style>
+
+  </head>
+  <body>
+
+  <!-- Make sure all your bars are the first things in your <body> -->
+  <header class="bar-title">
+    <h1 class="title">Prototype 歌單</h1>
+  </header>
+
+  <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+  <div class="content">
+    <ul class="list">
+      <li>
+        <a data-ignore="push" href="1.html">
+          Database
+          <span class="chevron"></span>
+          <span class="count-main">1</span>
+        </a>
+      </li>
+      <li>
+        <a data-ignore="push" href="2.html">
+          我和你和我
+          <span class="chevron"></span>
+          <span class="count-main">2</span>
+        </a>
+      </li>
+      <li>
+        <a data-ignore="push" href="3.html">
+          有你的危險
+          <span class="chevron"></span>
+          <span class="count-main">3</span>
+        </a>
+      </li>
+      <li>
+        <a data-ignore="push" href="4.html">
+          秩序的碎片
+          <span class="chevron"></span>
+          <span class="count-main">4</span>
+        </a>
+      </li>
+      <li>
+        <a data-ignore="push" href="4.5.html">
+          Kent - Socker
+          <span class="chevron"></span>
+          <span class="count">4.5</span>
+        </a>
+      </li>
+      <li>
+        <a data-ignore="push" href="5.html">
+          時差穿過
+          <span class="chevron"></span>
+          <span class="count-main">5</span>
+        </a>
+      </li>
+      <li>
+        <a data-ignore="push" href="6.html">
+          懸疑看見
+          <span class="chevron"></span>
+          <span class="count-main">6</span>
+        </a>
+      </li>
+      <li>
+        <a data-ignore="push" href="7.html">
+          霧解
+          <span class="chevron"></span>
+          <span class="count-main">7</span>
+        </a>
+      </li>
+      <li>
+        <a data-ignore="push" href="8.html">
+          細語呢喃
+          <span class="chevron"></span>
+          <span class="count-main">8</span>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+
+  <!-- Include the compiled Ratchet JS -->
+  <script src="ratchet.js"></script>
+  <script src="prototype.js"></script>
+  </body>
+</html>
